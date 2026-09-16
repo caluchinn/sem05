@@ -56,3 +56,15 @@ flowchart TD
     C -->|No| E[Error del Sistema]
 ```
 
+## Mapa conceptual de TECSUP
+
+```mermaid
+flowchart TD
+    A[TECSUP] --> B[Breve Concepto]
+
+    B --> C[Informática]
+    B --> D[Diseño]
+    B --> E[Administración]
+    B --> F[Mecánica]
+```
+
