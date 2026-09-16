@@ -19,3 +19,40 @@ usando ~~Markdown~~.
 - [X] Generar Matricula
 - [ ] Campo Vacio
 - [ ] Libre
+
+## Creando Tablas
+| Lenguaje de Programación | Creador |
+| ------------------------ | --------|
+| Java |James Cosling |
+| PHP  |Rasmus Lerdor |
+| Python  | Guido Van Rossum |
+
+## Codigo
+```html
+<h1>Hola Mundo</h1>
+```
+
+```css
+body{
+    background:"red";
+}
+```
+
+```Java
+public class Main{
+    public static void main(String[] args) {
+        system.out.println("Hola Mundo curel");
+    }
+}
+```
+
+## Mermaid Diagramas
+```mermaid
+flowchart TD
+A[Usuario]--> B[Iniciar Sesion]
+B --> C{Credenciales Validas}
+C --> [Si] D[Acceder al Sistema]
+C --> [NO] E[Error del Sistema]
+```
+
+
