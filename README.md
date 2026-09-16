@@ -1,3 +1,7 @@
+# Índice
+- [Título](#titulo-importante)
+- [Funciones](#funciones)
+
 # Titulo Importante
 Me encuentro aprendiendo *Markdown* en las clases del profesor
 Luis Pallin..
