@@ -47,12 +47,12 @@ public class Main{
 ```
 
 ## Mermaid Diagramas
+
 ```mermaid
 flowchart TD
-A[Usuario]--> B[Iniciar Sesion]
-B --> C{Credenciales Validas}
-C --> [Si] D[Acceder al Sistema]
-C --> [NO] E[Error del Sistema]
+    A[Usuario] --> B[Iniciar Sesión]
+    B --> C{Credenciales Válidas}
+    C -->|Sí| D[Acceder al Sistema]
+    C -->|No| E[Error del Sistema]
 ```
-
 
